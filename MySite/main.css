@@ -1,0 +1,292 @@
+/* This is a commet CTRL+/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+    font-family: sans-serif;
+    text-decoration: none; 
+}
+
+a:visited{
+  color: rgb(255, 0, 0);
+}
+
+body {
+    background-image: url("0000-0300-1.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color:snow; 
+}
+
+#musicplayer{
+  font-family: 'source Press Start 2P', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: fit-content;
+  padding: 5px;
+  border-radius: 4px;
+  border-style: dashed;
+  
+}
+
+#topcontent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#headercontainer {
+    justify-self: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.63);
+    padding: 15px;
+    border-radius: 8px;
+    border-style: dashed;
+}
+
+#navme {
+    height: 900px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    padding: 20px;
+    text-decoration: none; 
+}
+
+    #aboutme{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.63);
+        width: 1000px;
+        height: 800px;
+        border-radius: 4px;
+        border-style: dashed;
+        padding: 15px;
+        margin-top: 30px;
+        margin-left: 100px;
+        font-size: larger;
+
+    }
+
+    .amtitle {
+        align-items: flex-start;
+    }
+
+    #navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .navbuttons a{
+        width: 250px;
+        padding: 20px;
+        height: 40px;
+        text-align: center;
+        border: none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(209, 112, 0);
+        border-radius: 4px;
+        box-shadow: inset 0 0 0 0 rgb(98, 0, 255);
+        transition: ease-out 0.3s;
+        font-size: 1.5vw;
+        outline: none;
+    }
+
+        .navbuttons a:hover {
+          box-shadow: inset 300px 0 0 0 rgb(98, 0, 255);
+          cursor: pointer;
+          color: rgb(0, 0, 0);
+        }
+
+
+        #slay {
+          background-image: url("SLAYER3but2.png");
+          box-shadow: inset 0 0 0 0 rgba(255, 0, 0, 0.63);
+          font-size: 2vw;
+        }
+
+        #slay:hover {
+          box-shadow: inset 300px 0 0 0 rgba(0, 0, 0, 0.63);
+          cursor: pointer;
+          color: rgb(255, 0, 0);
+          font-family: 'source Rubik Glitch', Rubik Glitch;
+        }
+
+        #stdr1 {
+        
+        }
+
+
+        #stdr2 {
+
+        }
+
+
+
+        #stdr3 {
+
+        }
+
+
+        #stdr4 {
+
+        }
+
+
+        #stdr5 {
+
+        }
+
+        #stdr6 {
+        background-image: url("blender_jUKLHa5CSt.png");
+        }
+
+        #stdr7 {
+
+        }
+
+#planned{
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 900px;
+    height: 400px;
+    border-radius: 4px;
+    border-style: dashed;
+    margin: 80px;
+}
+
+#bodyslay {
+  background-image: url("SLAYERjeff.png");
+}
+
+#mySidenav a {
+    display: flex;
+    flex-direction: column;
+    align-items:space-evenly;
+    position:fixed;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    height: 40px;
+    width: 125px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    box-shadow: inset 300px 0 0 0 rgb(98, 0, 255);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    left: 0;
+  }
+  
+  #home {
+    top:30px;
+    position:fixed;
+    background-color: rgba(255, 153, 0, 0.7);
+  }
+  
+
+  #slaypg {
+    top: 110px;
+    position:fixed;
+    background-image: url("SLAYER3but2.png");
+    
+  }
+  
+  
+  #slaypg a:hover{
+    box-shadow: inset 300px 0 0 0 rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    font-family: 'source Rubik Glitch', Rubik Glitch;
+  }
+  
+  
+  #comissioned {
+    top:190px;
+
+    background-color: rgba(255, 153, 0, 0.7);
+  }
+  
+  #concepts {
+    top: 270px;
+
+    background-color: rgba(255, 153, 0, 0.7);
+  }
+  
+  #ships {
+    top: 350px;
+    background-color: rgba(255, 153, 0, 0.7);
+  }
+
+  #headhunters {
+    top: 430px;
+
+    background-color: rgba(255, 153, 0, 0.7);
+  }
+
+  #mech {
+    top: 510px;
+    background-color: rgba(255, 153, 0, 0.7);
+  }
+
+  #guns {
+    top: 590px;
+    background-color: rgba(255, 153, 0, 0.7);
+  }
+
+  #vtol {
+    top: 670px;
+    background-color: rgba(255, 153, 0, 0.7);
+  }
+
+#slayinfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.63);
+  border-radius: 4px;
+  border-style: dashed;
+  padding: 30px;
+  font-size: xx-large;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.63);
+  border-radius: 4px;
+  border-style: dashed;
+  padding: 30px;
+  font-size: xx-large;
+}
+
+.chemrow{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
